@@ -46,7 +46,7 @@
   color: rgba(255, 255, 255, 0.95);
 }
 .sc-h1 {
-  border-bottom: 15px solid #c10017;
+  border-bottom: 9px solid #c10017;
 }
 .left-side div {
   height: 110px;
@@ -69,7 +69,23 @@
   text-align: right;
   color: #000000;
 }
-
+.img1 {
+  height: 750;
+  width: 550;
+}
+.img2 {
+  height: 600;
+  width: 600;
+}
+.img3 {
+  height: 55px;
+  width: 67px;
+}
+.sc2-d2-p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+}
 .second-section {
   background-image: url("../Assets/Rectangle\ 132.png");
   background-color: #efefef;
@@ -84,15 +100,36 @@
 }
 .sc3-t {
   height: 20vh;
+  /* float: right; */
+}
+.sc3-t-h {
+  border-bottom: 9px solid #c10017;
+}
+.sc3-t-content {
+  float: right;
 }
 .sc3-b {
   height: 80vh;
 }
+.sc3-b-r {
+  position: relative;
+}
+.sc3-b-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.avc {
+  background-color: #c10017 !important;
+  color: white !important;
+  padding-left: 23px !important;
+  padding-right: 23px !important;
+}
 .section-3 {
   background-image: url("../Assets/Rectangle\ 110.svg");
   background-color: #fffdfd;
-  height: 100vh;
-  background-position: center;
+  height: 130vh;
+  background-position: center 7px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
