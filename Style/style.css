@@ -8,6 +8,7 @@
   background-image: url("../Assets/Vector\ 1.png");
   background-color: #efefef;
   height: 100vh;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,12 +71,12 @@
   color: #000000;
 }
 .img1 {
-  height: 750;
-  width: 550;
+  height: 750px;
+  width: 550px;
 }
 .img2 {
-  height: 600;
-  width: 600;
+  height: 600px;
+  width: 600px;
 }
 .img3 {
   height: 55px;
@@ -90,6 +91,7 @@
   background-image: url("../Assets/Rectangle\ 132.png");
   background-color: #efefef;
   height: 100vh;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,9 +102,9 @@
 }
 .sc3-t {
   height: 20vh;
-  /* float: right; */
 }
-.sc3-t-h {
+.sc3-t-h,
+.sc4-th {
   border-bottom: 9px solid #c10017;
 }
 .sc3-t-content {
@@ -129,8 +131,87 @@
   background-image: url("../Assets/Rectangle\ 110.svg");
   background-color: #fffdfd;
   height: 130vh;
-  background-position: center 7px;
+  width: auto;
+  background-position: center 17px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.section-4 {
+  background-image: url("../Assets/Vector\ 1.svg");
+  background-color: #efefef;
+  height: 100vh;
+  width: auto;
+  background-position: left;
+  background-size: 1050px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.img4 {
+  height: auto;
+  width: 450px;
+}
+.sc4-r {
+  background-color: #ffffff;
+  height: 100px;
+  width: 370px;
+  margin-left: 31%;
+  margin-top: 15.5%;
+}
+.sc4-rc {
+  padding-top: 5%;
+  text-align: center;
+}
+.img5 {
+  position: absolute;
+  transform: rotateX(27.5deg);
+  height: auto;
+  width: 300px;
+}
+.sc4-ri {
+  margin-left: 15%;
+}
+.sc4-r-lower {
+  margin-top: 13%;
+}
+.sc4-r-lower-li {
+  margin-left: -97%;
+}
+.img6 {
+  position: absolute;
+  transform: rotateX(28deg);
+  height: auto;
+  width: 300px;
+}
+.sc4-r-lower-ld {
+  background-color: #ffffff;
+  height: 100px;
+  width: 370px;
+  margin-left: -64%;
+  margin-top: 32%;
+}
+.sc4-r-lower-lc {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.sc4-r-lower-ri {
+  margin-left: -40%;
+}
+.sc4-r-lower-rd {
+  background-color: #ffffff;
+  height: 100px;
+  width: 370px;
+  margin-left: -6%;
+  margin-top: 32%;
+}
+.img7 {
+  position: absolute;
+  transform: rotateX(28deg);
+  height: auto;
+  width: 300px;
+}
+.sc4-r-lower-rc {
+  padding-top: 5%;
+  text-align: center;
 }
